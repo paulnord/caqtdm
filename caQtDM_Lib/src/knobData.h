@@ -39,7 +39,7 @@
 extern "C" {
 #endif
 
-#define STRING_EXCHANGE_SIZE 8192
+#define STRING_EXCHANGE_SIZE 65535
 
 typedef struct _epicsData {
     int          connected;             /* connection flag */
